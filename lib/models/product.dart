@@ -54,7 +54,7 @@ class Product {
     {
       'name': 'Baltika zero',
       'picUrl':
-          'https://carlsbergukraine.com/media/41111/baltika-0_svitle_can-0-5l.png',
+          'https://amwine.ru/upload/iblock/7a6/7a6b4e514fc8e7d7eaa9ce3d5a22fade.png',
     },
   ];
 }
