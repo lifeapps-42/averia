@@ -9,7 +9,7 @@ Ended at 15:30 same day with interuptions
 
 - First install Flutter SDK with help of [Google official guide](https://flutter.dev/docs/get-started/install)
 
-- If Flutter is already installed, make shure you have the lastest version of SDK
+- If Flutter is already installed, make sure you have the lastest version of SDK
 ```
 $ flutter upgrade
 ```
