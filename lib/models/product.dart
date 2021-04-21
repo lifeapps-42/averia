@@ -1,5 +1,7 @@
 import 'dart:math';
 
+import 'package:uuid/uuid.dart';
+
 class Product {
   final String name;
   final String id;
@@ -10,7 +12,7 @@ class Product {
     return Product._fromCollection(_collectionIndex);
   }
   Product._fromCollection(int index)
-      : id = Random().nextInt(2^16).toString(),
+      : id = Uuid().v4(),
         name = _localProductsCollection[index]['name']!,
         picUrl = _localProductsCollection[index]['picUrl']!;
 

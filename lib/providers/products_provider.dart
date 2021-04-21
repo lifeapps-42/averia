@@ -19,6 +19,7 @@ class ProductsProvider with ChangeNotifier implements IProductsProvider {
   void addRandomProduct() {
     if (_products != null) {
       _products!.insert(0, Product.random());
+      print(_products!.length);
       notifyListeners();
     }
   }
@@ -26,6 +27,7 @@ class ProductsProvider with ChangeNotifier implements IProductsProvider {
   @override
   void deleteProduct(String id) {
     _products!.removeWhere((_p) => _p.id == id);
+    print(_products!.length);
     notifyListeners();
   }
 
@@ -45,6 +47,7 @@ class ProductsProvider with ChangeNotifier implements IProductsProvider {
   void _addToList(List<Product> list) {
     if (_products == null) _products = [];
     _products!.addAll(list);
+    print(_products!.length);
     notifyListeners();
   }
 }

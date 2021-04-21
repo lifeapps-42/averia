@@ -11,7 +11,10 @@ class ProductsList extends StatelessWidget {
   Widget build(BuildContext context) {
     return GridView.builder(
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2, childAspectRatio: 1, crossAxisSpacing: 20, mainAxisSpacing: 20),
+          crossAxisCount: 2,
+          childAspectRatio: 1,
+          crossAxisSpacing: 20,
+          mainAxisSpacing: 20),
       itemCount: productsList.length,
       itemBuilder: (context, i) => ProductTile(
         product: productsList[i],
