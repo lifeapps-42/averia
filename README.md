@@ -5,7 +5,7 @@ Vacancy test app for Averia Electronics
 Started at 10:50
 Ended at 15:30 same day with interuptions
 
-[APK for x64 devices included](https://github.com/lifeapps-42/averia/releases/tag/v0.1)
+[APK for x64 devices included](https://github.com/lifeapps-42/averia/releases/tag/v0.1%2B2)
 
 ## To run Project
 
