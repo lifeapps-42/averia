@@ -5,6 +5,8 @@ Vacancy test app for Averia Electronics
 Started at 10:50
 Ended at 15:30 same day with interuptions
 
+[APK for x64 devices included](https://github.com/lifeapps-42/averia/releases/tag/v0.1)
+
 ## To run Project
 
 - First install Flutter SDK with help of [Google official guide](https://flutter.dev/docs/get-started/install)
